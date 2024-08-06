@@ -19,6 +19,22 @@
       "headers": {
         "name11": "value11"
       }
+    },
+    {
+      "route": "profile2",
+      "methods": [
+        "put"
+      ],
+      "rewrite": "12345",
+      "redirect": "new-2",
+      "statusCode": 202,
+      "allowedRoles": [
+        "admin2",
+        "authenticated2"
+      ],
+      "headers": {
+        "name2": "value2"
+      }
     }
   ]
 }
